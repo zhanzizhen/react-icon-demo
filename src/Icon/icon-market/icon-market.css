@@ -1,0 +1,31 @@
+.IconMarket {
+  display: flex;
+  flex-wrap: wrap;
+}
+.IconMarket__item {
+  font-size: 32px;
+  width: 120px;
+  height: 100px;
+  text-align: center;
+  margin: 0px 20px;
+  cursor: pointer;
+  color: red;
+  transition: all 0.3s;
+  border-radius: 4px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+.IconMarket__item .icon {
+  transition: inherit;
+}
+.IconMarket__item .desc {
+  font-size: 10px;
+  margin-top: 6px;
+}
+.IconMarket__item:hover {
+  color: #fff;
+  background-color: #1890ff;
+}
+.IconMarket__item:hover .icon {
+  transform: scale(1.2);
+}
