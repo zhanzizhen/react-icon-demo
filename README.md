@@ -6,6 +6,7 @@ svg icon的总体思路:
 1. 就是不写死fill/stroke这些属性的值，把值交给currentColor去控制
 2. 通过svg-sprite-loader来加载svg
 3. 通过require.context来某个目录下的所有svg
+4. 在dev条件下新建一个iconMarket的路由，这个路由展示了所有的icon，目的是为了方便对icon进行预览
 
 
 问题list:
